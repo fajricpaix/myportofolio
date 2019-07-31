@@ -18,8 +18,16 @@ section.success {
     display: flex;
     align-items: center;
 }
+#portfolio {
+	min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.modal-open .modal {
+	padding-right: 0 !important;
+}
 footer {
-	min-height: 90vh;
+	min-height: 68vh;
 	background-color: #233140;
 
 }
