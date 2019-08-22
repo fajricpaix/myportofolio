@@ -22,24 +22,34 @@
   margin-bottom: 0;
 }
 .ribbon {
-  background: #2c4095;
+  background: #2c2c2c;
 }
 .ribbon strong {
   color: #fff;
 }
 .ribbon:before {
-  border: 24px solid #2c4095;
+  border: 24px solid #2c2c2c;
   border-right-width: 24px;
   border-left-color: transparent;
 }
+.latest-from-blog {
+  bottom: 65px;
+  margin: 0;
+}
 .cover h1 {
-  text-shadow: 8px 7px 0px rgba(0, 0, 0, 0.3);
+  text-shadow: 8px 7px 0px rgba(0, 0, 0, 0.6);
 }
 .cover h3 {
   text-shadow: rgba(0, 0, 0, 0.4) 2px 1px 0, rgba(0, 0, 0, 0.4) 2px 2px 0;
 }
 .cover h3 span {
   color: #F44336;
+}
+.latest-from-blog h2 {
+  font-weight: bold;
+}
+.latest-from-blog h2 a {
+  padding: 5px 10px;
 }
 .portfolio-single {
   display: flex;
