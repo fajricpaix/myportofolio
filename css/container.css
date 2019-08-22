@@ -1,0 +1,51 @@
+.footer-quotes {
+  background: #d73232;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 13px 20px;
+}
+.footer-quotes img {
+  width: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+.footer-quotes-caption h4 {
+  font-size: 1em;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ribbon {
+  background: #2c4095;
+}
+.ribbon strong {
+  color: #fff;
+}
+.ribbon:before {
+  border: 24px solid #2c4095;
+  border-right-width: 24px;
+  border-left-color: transparent;
+}
+.cover h1 {
+  text-shadow: 8px 7px 0px rgba(0, 0, 0, 0.3);
+}
+.cover h3 {
+  text-shadow: rgba(0, 0, 0, 0.4) 2px 1px 0, rgba(0, 0, 0, 0.4) 2px 2px 0;
+}
+.cover h3 span {
+  color: #F44336;
+}
+.portfolio-single {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+.portfolio-field img {
+  width: 100%;
+}

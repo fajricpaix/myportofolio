@@ -1,0 +1,5 @@
+.cover h2, .cover h3 {
+			text-shadow: 
+			rgba(0,0,0,.4) 1px 1px 0,
+			rgba(0,0,0,.4) 2px 2px 0;
+}
